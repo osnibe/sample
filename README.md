@@ -1,3 +1,7 @@
+## init
+git config --global user.name "Firstname Lastname"
+git config --global user.email "hoge@example.com"
+
 ## touch README.md
 git init  
 git add README.md  
