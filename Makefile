@@ -1,12 +1,12 @@
 CC=gcc
 
-all: min
+all: min max my_strlen
 
 min:
 	$(CC) min.c -o min
 max:
 	$(CC) max.c -o max
-min:
+my_strlen:
 	$(CC) my_strlen.c -o my_strlen
 
 clean:
